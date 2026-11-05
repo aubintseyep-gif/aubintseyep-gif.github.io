@@ -48,7 +48,8 @@ function setLanguage(next) {
   languageButton.setAttribute('aria-label',language==='en'?'Passer en français':'Switch to English');
   document.querySelector('.research-filters').setAttribute('aria-label',language==='fr'?'Filtrer les travaux universitaires':'Filter academic research');
   document.getElementById('close-dialog').setAttribute('aria-label',language==='fr'?'Fermer les détails':'Close details');
-  document.title=language==='fr'?'Aubin Tseyep — Infrastructure, cybersécurité & confiance numérique':'Aubin Tseyep — Infrastructure, Cybersecurity & Digital Trust';
+  document.title=language==='fr'?'Aubin Tseyep | Infrastructure IT & cybersécurité | Windsor':'Aubin Tseyep | IT Infrastructure & Cybersecurity | Windsor';
+  document.querySelector('meta[name="description"]').setAttribute('content',language==='fr'?"Aubin Tseyep, ingénieur infrastructure et systèmes à Windsor, Ontario. Étudiant en cybersécurité au St. Clair College, spécialisé dans la protection des données et la vie privée.":"Aubin Tseyep, infrastructure and systems engineer in Windsor, Ontario. Cybersecurity student at St. Clair College, focused on data protection and privacy.");
   updateMenuLabel();renderResearch();renderWork();updatePortrait();updateMediaLabels();
   if(openedDetail)renderDetail(openedDetail.type,openedDetail.key);
   try{localStorage.setItem('aubin-portfolio-language',language);}catch(_){}
@@ -124,3 +125,4 @@ mediaDialog.addEventListener('close',()=>{document.body.classList.remove('modal-
 
 let storedLanguage='en';try{storedLanguage=localStorage.getItem('aubin-portfolio-language')||'en';}catch(_){}
 setLanguage(storedLanguage);
+

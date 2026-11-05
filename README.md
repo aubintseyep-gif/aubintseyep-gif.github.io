@@ -1,4 +1,16 @@
-# Portfolio d’Aubin Tseyep — GitHub Pages
+# Aubin Tseyep — IT Infrastructure & Cybersecurity
+
+Infrastructure and systems engineer based in Windsor, Ontario, and a cybersecurity student at St. Clair College. My work brings together enterprise infrastructure, data protection and academic research into privacy and Zero Trust.
+
+- **Professional portfolio:** [https://aubintseyep-gif.github.io/](https://aubintseyep-gif.github.io/)
+- **LinkedIn:** [Aubin Tseyep](https://ca.linkedin.com/in/aubin-tseyep-916245371)
+- **Research interests:** privacy, cybersecurity governance, Zero Trust and cyber resilience.
+
+Ingénieur infrastructure et systèmes à Windsor, je poursuis mes études en cybersécurité au St. Clair College. Ce portfolio présente mon expérience professionnelle, mes travaux universitaires et mon engagement au Club de cybersécurité.
+
+---
+
+# Code du portfolio — GitHub Pages
 
 Version prête pour GitHub Pages : infrastructure informatique, cybersécurité, recherche universitaire, photos professionnelles et vidéo. Le site fonctionne en français et en anglais. Le contact passe par LinkedIn ; l’adresse courriel personnelle n’est pas dans le HTML ou le JavaScript.
 
@@ -63,3 +75,4 @@ Remplacez l’adresse d’exemple par l’adresse réelle du site avant de l’a
 - https://docs.github.com/en/pages/quickstart
 - https://docs.github.com/en/pages/getting-started-with-github-pages/what-is-github-pages
 - https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site
+
